@@ -6,3 +6,8 @@ The final project for this Memory Management course is to implement your own ver
 - Complete `Pointer` `operator==`
 - Complete `Pointer` destructor
 - Complete `PtrDetails` class
+
+## Basic build instructions:
+1. Clone this repo
+2. Complete TODO list
+3. Complie and run : `./make`
