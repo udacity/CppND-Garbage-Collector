@@ -22,9 +22,9 @@ private:
     T *addr;
     /*  isArray is true if this Pointer points
         to an allocated array. It is false
-        otherwise. 
+        otherwise.
     */
-    bool isArray; 
+    bool isArray;
     // true if pointing to array
     // If this Pointer is pointing to an allocated
     // array, then arraySize contains its size.
@@ -122,7 +122,7 @@ Pointer<T,size>::Pointer(const Pointer &ob){
 // Destructor for Pointer.
 template <class T, int size>
 Pointer<T, size>::~Pointer(){
-    
+
     // TODO: Implement Pointer destructor
     // Lab: New and Delete Project Lab
 }
