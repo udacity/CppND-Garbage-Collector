@@ -110,7 +110,7 @@ namespace __Tester__ {
         dealloc_count, alloc_total, dealloc_total,
         alloc_max, alloc_current);
       if(alloc_map) {
-        std::fprintf(output, "\n\nLEAK! YOU HAVE MEMORY LEAKAGE ON FOLLOWING PLACES: \n");
+        std::fprintf(output, "\n\nLEAK! THERE IS MEMORY LEAKAGE ON FOLLOWING PLACES: \n");
         for(Info *current = alloc_map; current; current = current->link)
           if(current->line == -2)
             std::fprintf(output, " - address %p, %lu bytes, allocated internally\n",
@@ -122,7 +122,7 @@ namespace __Tester__ {
         std::fprintf(output, "\n");
       }
       else
-        std::fprintf(output, "\n\nGREAT JOB! YOU DO NOT HAVE MEMORY LEAKAGE\n\n");
+        std::fprintf(output, "\n\nNO MEMORY LEAKAGE\n\n");
       if(output != stdout) fclose(output);
       std::system("PAUSE");
     }
