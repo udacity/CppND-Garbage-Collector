@@ -22,7 +22,7 @@ $ ./compiled
 ```
 
 ## Project TODO List:
-- Complete `Pointer` constructor
-- Complete `Pointer` `operator==`
-- Complete `Pointer` destructor
-- Complete `PtrDetails` class
+- [x] Complete `Pointer` constructor
+- [x] Complete `Pointer` `operator==`
+- [x] Complete `Pointer` destructor
+- [x] Complete `PtrDetails` class
